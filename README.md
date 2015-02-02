@@ -22,7 +22,7 @@ RETURN path
 ```
 El resultado es:
 
-![../ejercicio1](ejercicio1.png)
+![ejercicio1](http://xavi783.github.io/ejercicios6.3/ejercicio1.png)
 
 * **¿Cuáles son los géneros de las películas en las que ha participado John Travolta? ¿En cuántas películas de cada género?**
 
@@ -33,7 +33,7 @@ RETURN DISTINCT movie.genre
 
 El resultado es:
 
-![../ejercicio1_2](ejercicio1_2.png)
+![ejercicio1_2](http://xavi783.github.io/ejercicios6.3/ejercicio1_2.png)
 
 Para contar el número de películas por género, basta con hacer:
 
@@ -44,9 +44,9 @@ RETURN DISTINCT movie.genre, count(movie.genre)
 
 Obteniendo:
 
-![../ejercicio1_3](ejercicio1_3.png)
+![ejercicio1_3](http://xavi783.github.io/ejercicios6.3/ejercicio1_3.png)
 
-[![up](./SVG/up.svg)up](#ejercicios-63)<hr/>
+[![up](http://xavi783.github.io/ejercicios6.3/SVG/up.svg)up](#ejercicios-63)<hr/>
 
 ## Pregunta 2 ##
 
@@ -73,13 +73,13 @@ RETURN m.title
 ```
 El resultado antes de ejecutar la consulta (obtenido en **3430ms**) es:
 
-![../antes de la consulta](ejercicio2_before.png)
+![antes de la consulta](http://xavi783.github.io/ejercicios6.3/ejercicio2_before.png)
 
 Y tras realizar los cambios, obtenemos el resultado en tan solo **210ms**, como se ve en:
 
-![../despues de la consulta](ejercicio2_after.png)
+![despues de la consulta](http://xavi783.github.io/ejercicios6.3/ejercicio2_after.png)
 
-[![up](./SVG/up.svg)up](#ejercicios-63)<hr/>
+[![up](http://xavi783.github.io/ejercicios6.3/SVG/up.svg)up](#ejercicios-63)<hr/>
 
 ## Pregunta 3 ##
 
@@ -138,9 +138,9 @@ Cuando ejecutamos la siguiente llamda:
 
 Obtenemos:
 
-![../ejercicio3](ejercicio3.png)
+![ejercicio3](http://xavi783.github.io/ejercicios6.3/ejercicio3.png)
 
-[![up](./SVG/up.svg)up](#ejercicios-63)<hr/>
+[![up](http://xavi783.github.io/ejercicios6.3/SVG/up.svg)up](#ejercicios-63)<hr/>
 
 ## Pregunta 4 (bonus) ##
 
@@ -150,4 +150,4 @@ Obtenemos:
 
 >Nota: considere apoyarse en el proyecto Neo4j Spatial.
 
-[![up](./SVG/up.svg)up](#ejercicios-63)<hr/>
+[![up](http://xavi783.github.io/ejercicios6.3/SVG/up.svg)up](#ejercicios-63)<hr/>
